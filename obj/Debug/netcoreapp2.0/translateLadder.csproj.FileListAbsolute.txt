@@ -1,0 +1,10 @@
+/home/danni/Code/translateLadder/bin/Debug/netcoreapp2.0/translateLadder.deps.json
+/home/danni/Code/translateLadder/bin/Debug/netcoreapp2.0/translateLadder.runtimeconfig.json
+/home/danni/Code/translateLadder/bin/Debug/netcoreapp2.0/translateLadder.runtimeconfig.dev.json
+/home/danni/Code/translateLadder/bin/Debug/netcoreapp2.0/translateLadder.dll
+/home/danni/Code/translateLadder/bin/Debug/netcoreapp2.0/translateLadder.pdb
+/home/danni/Code/translateLadder/obj/Debug/netcoreapp2.0/translateLadder.csproj.CoreCompileInputs.cache
+/home/danni/Code/translateLadder/obj/Debug/netcoreapp2.0/translateLadder.AssemblyInfoInputs.cache
+/home/danni/Code/translateLadder/obj/Debug/netcoreapp2.0/translateLadder.AssemblyInfo.cs
+/home/danni/Code/translateLadder/obj/Debug/netcoreapp2.0/translateLadder.dll
+/home/danni/Code/translateLadder/obj/Debug/netcoreapp2.0/translateLadder.pdb
