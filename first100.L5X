@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><RSLogix5000Content SchemaRevision="1.0" SoftwareRevision="20.01" TargetType="Rung" TargetSubType="RLL" ContainsContext="true" Owner="Engineering, Agile Projects Pty Ltd" ExportDate="Wed Oct 25 09:24:04 2017" ExportOptions="References DecoratedData Context Dependencies ForceProtectedEncoding AllProjDocTrans">
+  <Controller Use="Context" Name="ProductionPLC">
+    <DataTypes Use="Context" />
+    <Tags Use="Context" />
+    <Programs Use="Context">
+      <Program Use="Context" Name="MainProgram">
+        <Routines Use="Context">
+          <Routine Use="Context" Name="MainRoutine" Type="RLL">
+            <RLLContent>
+              <Rung Use="Target" Number="0" Type="N">
+                <Text><![CDATA[XIC(M10)XIO(M10)OTE(M10);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="1" Type="N">
+                <Text><![CDATA[[XIC(Y2718),XIC(Y2710)]OTE(Y2726);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="2" Type="N">
+                <Text><![CDATA[XIO(R7E3)OTE(M2);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="3" Type="N">
+                <Text><![CDATA[XIC(R7E3)ADD(WR1001,1,WR1001);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="4" Type="N">
+                <Text><![CDATA[MOV(WL3A,WL1A);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="5" Type="N">
+                <Text><![CDATA[OTE(M3D10);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="6" Type="N">
+                <Text><![CDATA[XIC(M2851)OTE(Y1816);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="7" Type="N">
+                <Text><![CDATA[XIC(M2815)OTE(Y1817);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="8" Type="N">
+                <Text><![CDATA[XIC(M2825)XIO(M2893)OTE(Y1818);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="9" Type="N">
+                <Text><![CDATA[MOV(WL51,WR118);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="10" Type="N">
+                <Text><![CDATA[MOV(WL52,WR117);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="11" Type="N">
+                <Text><![CDATA[MOV(WL53,WR116);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="12" Type="N">
+                <Text><![CDATA[MOV(WL54,WR115);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="13" Type="N">
+                <Text><![CDATA[MOV(WL55,WR114);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="14" Type="N">
+                <Text><![CDATA[MOV(WL56,WR1807);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="15" Type="N">
+                <Text><![CDATA[OTE(M3D11);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="16" Type="N">
+                <Text><![CDATA[XIC(M2951)OTE(Y1819);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="17" Type="N">
+                <Text><![CDATA[XIC(M2915)OTE(Y1820);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="18" Type="N">
+                <Text><![CDATA[XIC(M2925)XIO(M2993)OTE(Y1821);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="19" Type="N">
+                <Text><![CDATA[MOV(WL61,WR123);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="20" Type="N">
+                <Text><![CDATA[MOV(WL62,WR122);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="21" Type="N">
+                <Text><![CDATA[MOV(WL63,WR121);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="22" Type="N">
+                <Text><![CDATA[MOV(WL64,WR120);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="23" Type="N">
+                <Text><![CDATA[MOV(WL65,WR119);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="24" Type="N">
+                <Text><![CDATA[MOV(WL66,WR1907);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="25" Type="N">
+                <Text><![CDATA[OTE(M3D12);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="26" Type="N">
+                <Text><![CDATA[XIC(M3051)OTE(Y1822);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="27" Type="N">
+                <Text><![CDATA[XIC(M3015)OTE(Y1823);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="28" Type="N">
+                <Text><![CDATA[XIC(M3025)XIO(M3093)OTE(Y1824);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="29" Type="N">
+                <Text><![CDATA[MOV(WL71,WR128);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="30" Type="N">
+                <Text><![CDATA[MOV(WL72,WR127);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="31" Type="N">
+                <Text><![CDATA[MOV(WL73,WR126);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="32" Type="N">
+                <Text><![CDATA[MOV(WL74,WR125);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="33" Type="N">
+                <Text><![CDATA[MOV(WL75,WR124);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="34" Type="N">
+                <Text><![CDATA[MOV(WL76,WR2007);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="35" Type="N">
+                <Text><![CDATA[OTE(M3D13);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="36" Type="N">
+                <Text><![CDATA[XIC(M3151)OTE(Y1825);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="37" Type="N">
+                <Text><![CDATA[XIC(M3115)OTE(Y1826);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="38" Type="N">
+                <Text><![CDATA[XIC(M3125)XIO(M3193)OTE(Y1827);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="39" Type="N">
+                <Text><![CDATA[MOV(WL81,WR133);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="40" Type="N">
+                <Text><![CDATA[MOV(WL82,WR132);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="41" Type="N">
+                <Text><![CDATA[MOV(WL83,WR131);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="42" Type="N">
+                <Text><![CDATA[MOV(WL84,WR130);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="43" Type="N">
+                <Text><![CDATA[MOV(WL85,WR129);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="44" Type="N">
+                <Text><![CDATA[MOV(WL86,WR2107);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="45" Type="N">
+                <Text><![CDATA[OTE(M3D14);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="46" Type="N">
+                <Text><![CDATA[XIC(M3251)OTE(Y1828);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="47" Type="N">
+                <Text><![CDATA[XIC(M3215)OTE(Y1829);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="48" Type="N">
+                <Text><![CDATA[XIC(M3225)XIO(M3293)OTE(Y1830);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="49" Type="N">
+                <Text><![CDATA[MOV(WL91,WR138);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="50" Type="N">
+                <Text><![CDATA[MOV(WL92,WR137);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="51" Type="N">
+                <Text><![CDATA[MOV(WL93,WR136);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="52" Type="N">
+                <Text><![CDATA[MOV(WL94,WR135);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="53" Type="N">
+                <Text><![CDATA[MOV(WL95,WR134);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="54" Type="N">
+                <Text><![CDATA[MOV(WL96,WR2207);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="55" Type="N">
+                <Text><![CDATA[OTE(M3D15);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="56" Type="N">
+                <Text><![CDATA[XIC(M3351)OTE(Y1A20);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="57" Type="N">
+                <Text><![CDATA[XIC(M3315)OTE(Y1A21);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="58" Type="N">
+                <Text><![CDATA[XIC(M3325)XIO(M3393)OTE(Y1A22);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="59" Type="N">
+                <Text><![CDATA[MOV(WL59,WR139);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="60" Type="N">
+                <Text><![CDATA[MOV(WL5A,WR140);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="61" Type="N">
+                <Text><![CDATA[MOV(WL5B,WR141);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="62" Type="N">
+                <Text><![CDATA[MOV(WL5C,WR142);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="63" Type="N">
+                <Text><![CDATA[MOV(WL5D,WR143);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="64" Type="N">
+                <Text><![CDATA[MOV(WL5E,WR2307);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="65" Type="N">
+                <Text><![CDATA[OTE(M3D16);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="66" Type="N">
+                <Text><![CDATA[XIC(M3451)OTE(Y1A24);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="67" Type="N">
+                <Text><![CDATA[XIC(M3415)OTE(Y1A25);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="68" Type="N">
+                <Text><![CDATA[XIC(M3425)XIO(M3493)OTE(Y1A26);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="69" Type="N">
+                <Text><![CDATA[MOV(WL69,WR144);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="70" Type="N">
+                <Text><![CDATA[MOV(WL6A,WR145);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="71" Type="N">
+                <Text><![CDATA[MOV(WL6B,WR146);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="72" Type="N">
+                <Text><![CDATA[MOV(WL6C,WR147);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="73" Type="N">
+                <Text><![CDATA[MOV(WL6D,WR148);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="74" Type="N">
+                <Text><![CDATA[MOV(WL6E,WR2407);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="75" Type="N">
+                <Text><![CDATA[XIC(M2425)OTE(Y821)OTE(Y822)OTE(Y823)OTE(Y824)OTE(Y825)OTE(Y826)OTE(Y827);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="76" Type="N">
+                <Text><![CDATA[OTE(M3D20);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="77" Type="N">
+                <Text><![CDATA[XIC(M3788)MOV(WL41,176);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="78" Type="N">
+                <Text><![CDATA[[XIC(M3796),XIC(L11B)]MOV(WL41,671);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="79" Type="N">
+                <Text><![CDATA[MOV(WL42,WR278)MOV(WL43,WR358)MOV(WL44,WR178)MOV(WL45,WR455)MOV(WL46,WR385)MOV(WL47,WR3889);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="80" Type="N">
+                <Text><![CDATA[OTE(M3D21);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="81" Type="N">
+                <Text><![CDATA[XIC(X716)OTE(M21);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="82" Type="N">
+                <Text><![CDATA[XIC(X717)OTE(M31);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="83" Type="N">
+                <Text><![CDATA[XIC(X1015)OTE(M41);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="84" Type="N">
+                <Text><![CDATA[XIC(X718)OTE(M22);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="85" Type="N">
+                <Text><![CDATA[XIC(X719)OTE(M32);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="86" Type="N">
+                <Text><![CDATA[XIC(X1031)OTE(M42);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="87" Type="N">
+                <Text><![CDATA[XIC(X720)OTE(M23);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="88" Type="N">
+                <Text><![CDATA[XIC(X721)OTE(M33);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="89" Type="N">
+                <Text><![CDATA[XIC(X1115)OTE(M43);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="90" Type="N">
+                <Text><![CDATA[XIC(X722)OTE(M24);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="91" Type="N">
+                <Text><![CDATA[XIC(X723)OTE(M34);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="92" Type="N">
+                <Text><![CDATA[XIC(X1131)OTE(M44);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="93" Type="N">
+                <Text><![CDATA[XIC(X724)OTE(M25);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="94" Type="N">
+                <Text><![CDATA[XIC(X725)OTE(M35);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="95" Type="N">
+                <Text><![CDATA[XIC(X1215)OTE(M45);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="96" Type="N">
+                <Text><![CDATA[XIC(X726)OTE(M26);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="97" Type="N">
+                <Text><![CDATA[XIC(X727)OTE(M36);]]></Text>
+              </Rung>
+              <Rung Use="Target" Number="98" Type="N">
+                <Text><![CDATA[XIC(X1231)OTE(M46);]]></Text>
+              </Rung>
+            </RLLContent>
+          </Routine>
+        </Routines>
+      </Program>
+    </Programs>
+  </Controller>
+</RSLogix5000Content>
